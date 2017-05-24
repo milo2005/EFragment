@@ -2,8 +2,38 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
 
+    <FrameLayout
+        android:id="@+id/container1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <FrameLayout
+        android:id="@+id/container2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <!--<fragment
+        android:id="@+id/fragment1"
+        android:name="unicauca.movil.fragments.fragments.ColorFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_color"
+        />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="unicauca.movil.fragments.fragments.ColorFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_color"
+        />-->
 
 </LinearLayout>
